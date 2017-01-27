@@ -19,7 +19,7 @@ body {
 
 .board {
 	display: inline-block;
-	height: 80%;
+	height: 50%;
 	width: 50%;
 	color: yellow;
 }
@@ -32,10 +32,34 @@ body {
 	border-radius: 10px;
 	color: black;
 	background-color: yellow;
+	float: left;
+	margin: 8%;
 }
 footer {
 	text-align: center;
+	background-color: #808080;
 }
 .name {
 	color: #ff0000;
 }
+.clearfix {
+	background-color: #808080;
+	text-c
+
+}
+a {
+	background-color: #ffbf00;
+	color: white;
+	padding: 35px;
+	display: block;
+	float: left;
+}
+
+.clearfix:after {
+        visibility: hidden;
+        display: block;
+        content: " ";
+        clear: both;
+        height: 0;
+        font-size: 0;
+      }
